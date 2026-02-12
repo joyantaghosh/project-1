@@ -1,0 +1,133 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+header > div {
+    margin: 5px;
+    padding: 5px;
+    
+}
+header > div:hover{
+    background-color: black;
+    color: white;
+    text-decoration: underline;
+    cursor: pointer;
+}
+header{
+    display: flex;
+    justify-content:center;
+    position: sticky;
+    margin: 5px;
+    padding: 5px;
+    background-color: chartreuse;
+    border: 2px solid black;
+}
+main{
+    display: flex;
+    justify-content: center;
+    margin-bottom: 100px;
+}
+main >div.clock{
+    margin-top: 50px;
+    display: inline-block;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    padding-left: 120px;
+    padding-right: 120px;
+    border: 2px solid red;
+    background-color:deeppink;
+    color:chartreuse;
+    font-size: 25px;
+}
+
+div.calculator{
+    margin: auto;
+    /* margin-top: 50px; */
+    border: 2px solid black;
+    border-radius: 20px;
+    width: 300px;
+    height: 400px;
+    padding: 35px;
+    box-sizing: border-box;
+}
+div.calculator > div{
+    display: flex;
+    justify-content: center;
+    margin-top: -20px;
+    margin-bottom: 30px;
+}
+div.calculator > div > span{
+    font-weight: bold;
+    font-size: 30px;
+}
+ .info-btn {
+    margin-left: 5px;
+    width:20px;
+    height: 20px;
+    border-radius: 50%;
+    border: 2px solid #007bff;
+    background-color: transparent;
+    color: #007bff;
+    font-family: serif;
+    font-style: italic;
+    font-weight: bold;
+    cursor: pointer;
+    /* display: inline-flex; */
+    /* align-items: center; */
+    /* justify-content: center; */
+    /* padding: 0; */
+  } 
+
+  .info-btn:hover {
+    background-color: #007bff;
+    color: white;
+  }
+
+label {
+    margin-bottom: 20px;
+    font-size: 18px;
+  }
+input[type="text"] {
+    width: 100%;
+    padding: 8px;
+    margin-bottom: 20px;
+    border: 1px solid #045f787a;
+    border-radius: 5px;
+}
+input[type="text"]:focus {
+    border: 2px solid #007bff;
+    outline: none;
+}
+div.result {
+    margin-top: 5px;
+    margin-bottom: 10px;
+    color:#007bff ;
+}
+div.result > span,div.result > label {
+    font-size: 25px;
+    font-weight: bold;
+}
+
+input[type="submit"] {
+    width: 100%;
+    padding: 10px;
+    font-size: 20px;
+    border: 1px solid #045f787a;
+    border-radius: 5px;
+    cursor: pointer;
+}
+input[type="submit"]:hover {
+    background-color: #007bff;
+    color: white;
+    border: 1px solid #045f787a;
+}
+input[type="radio"] {
+    margin-left: 20px;
+    margin-top: 10px;  
+    accent-color: red;
+    height: 20px;
+    width: 20px;
+    font-size: 40px;
+    
+}
