@@ -26,19 +26,20 @@ header{
 main{
     display: flex;
     justify-content: center;
-    margin-bottom: 100px;
+    margin-bottom: 50px;
 }
 main >div.clock{
     margin-top: 50px;
     display: inline-block;
-    padding-top: 20px;
-    padding-bottom: 20px;
-    padding-left: 120px;
-    padding-right: 120px;
+    padding-top:0px;
+    padding-bottom:0px;
+    padding-left:50px;
+    padding-right:50px;
     border: 2px solid red;
     background-color:deeppink;
     color:chartreuse;
-    font-size: 25px;
+    font-size: 40px;
+    font-weight: bold;
 }
 
 div.calculator{
