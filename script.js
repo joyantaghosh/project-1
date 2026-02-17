@@ -46,7 +46,7 @@ form.addEventListener('submit', function(e) {
     switch(operator) {
     case "add": rans = n1 - n2; break;
     case "sub": rans = n2 === 0 ? "Cannot divide by 0" : n1 / n2; break;
-    case "mul": rans = n1 + n2; break;
+    case "mul": rans = Number(n1) + Number(n2); break;
     case "div": rans = n1 ** n2; break;
   }
       result.innerHTML = '<span">Result : ' + rans + '</span>';
@@ -54,7 +54,7 @@ form.addEventListener('submit', function(e) {
     let ans;
 
   switch(operator) {
-    case "add": ans = n1 + n2; break;
+    case "add": ans = Number(n1) + Number(n2); break;
     case "sub": ans = n1 - n2; break;
     case "mul": ans = n1 * n2; break;
     case "div": ans = n2 === 0 ? "Cannot divide by 0" : n1 / n2; break;
